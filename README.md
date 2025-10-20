@@ -136,4 +136,6 @@
 | `PATCH` | `/api/admin/users/{id}/role` | Update user role | Admin |
 | `GET` | `/api/admin/orders` | List of all orders | Admin |
 
+---
+
 Made with ☕ by Maxime Moilliet
