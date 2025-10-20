@@ -14,7 +14,6 @@
 
 - [Data Model](#data-model)
 - [API Endpoints](#api-endpoints)
-- [Security](#security)
 
 ## Data Model
 
@@ -136,17 +135,5 @@
 | `GET` | `/api/admin/users/{id}` | User details | Admin |
 | `PATCH` | `/api/admin/users/{id}/role` | Update user role | Admin |
 | `GET` | `/api/admin/orders` | List of all orders | Admin |
-
-## Security
-
-### Roles and Permissions
-
-| Role | Permissions |
-|------|------------|
-| **Guest (unauthenticated)** | View products and categories, Register, Login |
-| **ROLE_USER (Customer)** | All guest permissions + Manage cart, Place orders, View own orders |
-| **ROLE_ADMIN** | All permissions + CRUD products/categories, Manage all users, Manage all orders |
-
----
 
 Made with ☕ by Maxime Moilliet
